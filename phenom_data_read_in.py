@@ -68,6 +68,4 @@ def csv_to_np(directory):
     data = np.array(data)
     col_names = np.array(col_names)
     
-    #Here's where my h5 code would go IF I HAD ANY
-    
     return data, col_names
